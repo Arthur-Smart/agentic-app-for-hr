@@ -1,0 +1,26 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "ssh": "Enabled",
+            "previewLimit": 50,
+            "server": "dpg-dc1vt2mc6qcc73c0u8qg-a.oregon-postgres.render.com",
+            "port": 5432,
+            "sshOptions": {
+                "port": 22,
+                "username": "hr_agentic_user",
+                "host": "dpg-dc1vt2mc6qcc73c0u8qg-a.oregon-postgres.render.com",
+                "password": "wmpHn01HHnAycKM9XwI42kygNc3UKuPB"
+            },
+            "driver": "PostgreSQL",
+            "name": "Render PostgreSQL",
+            "database": "hr_ai_8cy2",
+            "username": "hr_agentic_user",
+            "connectionTimeout": 180
+        }
+    ]
+}
